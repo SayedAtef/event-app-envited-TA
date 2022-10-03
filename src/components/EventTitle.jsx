@@ -1,9 +1,17 @@
+import { useContext } from "react";
+import FormContext from "../context/formContext";
+
 const EventTitle = () => {
+  const { formData } = useContext(FormContext);
+
   return (
     <div className="ml-5">
-      <h1 className="text-[28px] text-[#240D57] font-bold ">Birthday Bash</h1>
+      <h1 className="text-[28px] text-[#240D57] font-bold ">
+        {formData.formData.eventName}
+      </h1>
       <p className="text-[14px] font-light text-[#828282]">
-        Hosted by <span className="font-bold">Elysia</span>
+        Hosted by{" "}
+        <span className="font-bold">{formData.formData.hostName}</span>
       </p>
     </div>
   );

@@ -6,6 +6,7 @@ import EventImage from "./EventImage";
 import EventTitle from "./EventTitle";
 import EventComponent from "./EventComponent";
 import EventList from "./EventList";
+import CreateForm from "./CreateForm";
 
 export {
   Wrapper,
@@ -16,4 +17,5 @@ export {
   EventTitle,
   EventComponent,
   EventList,
+  CreateForm,
 };

@@ -32,7 +32,7 @@ const CreateForm = () => {
   };
 
   return (
-    <section className="text-center block ">
+    <section className="block mx-auto min-w-[350px] md:min-w-[500px]">
       <form onSubmit={onSubmit}>
         <div className="mb-4">
           <label className="block text-sm font-medium text-[#E0E0E0] ">

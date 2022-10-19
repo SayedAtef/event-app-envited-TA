@@ -1,15 +1,7 @@
-import { Wrapper, Hero, MainContent, Button } from "../components";
+import { Wrapper } from "../components";
 
 const Home = () => {
-  return (
-    <>
-      <Wrapper>
-        <Hero />
-        <MainContent />
-        <Button />
-      </Wrapper>
-    </>
-  );
+  return <Wrapper />;
 };
 
 export default Home;

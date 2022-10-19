@@ -6,7 +6,7 @@ import FormContext from "../context/formContext";
 const EventList = () => {
   const { formData } = useContext(FormContext);
   return (
-    <div className="mt-8">
+    <div className="mt-8 md:mt-[60px] xl:min-w-[390px]">
       <EventComponent
         Icon={FaCalendar}
         title={formData ? formData.formData.startDate : "18 August 6:00PM"}

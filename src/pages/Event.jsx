@@ -2,7 +2,7 @@ import { EventImage, EventTitle, EventList } from "../components";
 
 const Event = () => {
   return (
-    <div className="bg-[#FBFAFF] xl:grid xl:grid-cols-2 justify-center">
+    <div className="bg-[#FBFAFF] xl:grid xl:grid-cols-2 justify-center h-screen">
       <div className="xl:hidden">
         <EventImage />
       </div>

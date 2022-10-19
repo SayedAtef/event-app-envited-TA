@@ -9,7 +9,7 @@ const MainContent = () => {
       <img
         src="image-desktop.png"
         alt="main-content"
-        className="hidden xl:block m-auto scale-90"
+        className="hidden xl:block m-auto scale-75"
       />
     </>
   );
